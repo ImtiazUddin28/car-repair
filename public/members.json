@@ -1,0 +1,28 @@
+[
+    
+    {
+        "post": "Repair Executive",
+        "name": "Mitchell Marsh",
+        "img": "https://www.autotrainingcentre.com/wp-content/uploads/2015/09/Top-5-Most-Common-Repairs-Youll-Encounter-in-an-Auto-Repair-Career.jpg",
+        "content": "I recently discovered this e-library and I'm hooked! The app is user-friendly and the selection is impressive. Plus, I love being able to access my books from any device. Highly recommend!",
+        
+        "_id": 1
+    },
+    {
+        "post": "Product Manager",
+        "name": "Ben Stokes",
+        "img": "https://st2.depositphotos.com/1000291/5749/i/950/depositphotos_57494411-stock-photo-car-repairman-auto-mechanic.jpg",
+        "content": "I've been using this e-library for a few months now and I'm really impressed. The customer service is top-notch and the wide variety of genres available means I'm never without something to read. Highly recommend giving it a try!",
+        
+        "_id": 2
+    },
+    {
+        "post": "Sales Director",
+        "name": "David Warrner",
+        "img": "https://previews.123rf.com/images/kadmy/kadmy1608/kadmy160800258/61076274-auto-repairman-mechanic-portrait-in-car-auto-repair-or-maintenance-shop-service-station.jpg",
+        "content": "I recently discovered this e-library and I'm hooked! The app is user-friendly and the selection is impressive. Plus, I love being able to access my books from any device. Highly recommend!",
+        
+        "_id": 3
+    }
+    
+]

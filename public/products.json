@@ -1,0 +1,60 @@
+[
+    
+    {
+        "name": "Product Manager",
+        "img": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQXd1BFeGNmFgni0SbBC1V7bdqmAhgjw33eU97SNG7J4xmwuLN2nv7IcwhxjdBSne25Ljo&usqp=CAU",
+        "content": "I recently discovered this e-library and I'm hooked! The app is user-friendly and the selection is impressive. Plus, I love being able to access my books from any device. Highly recommend!",
+        "price": 600,
+        "_id": 1
+    },
+    {
+        "name": "Car Body",
+        "img": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTbPKzN8BS5KXA0onBZZN9oR-a0OxPvjXISdQ&usqp=CAU",
+        "content": "I've been using this e-library for a few months now and I'm really impressed. The customer service is top-notch and the wide variety of genres available means I'm never without something to read. Highly recommend giving it a try!",
+        "price": 900,
+        "_id": 2
+    },
+    {
+        "name": "Product Manager",
+        "img": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSp_EkMY5hBoQzIECYBzGzQFee2fbcY6IvotRGxX8JWkX142511lXtlgrrnk2_tqAcRPtE&usqp=CAU",
+        "content": "I recently discovered this e-library and I'm hooked! The app is user-friendly and the selection is impressive. Plus, I love being able to access my books from any device. Highly recommend!",
+        "price": 600,
+        "_id": 3
+    },
+    {
+        "name": "Leaked Swath",
+        "img": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSPF7-aC7ZM2TyUgQXcijzO9N-U6uUAjdoTTg&usqp=CAU",
+        "content": "I'm a huge fan of this e-library. The interface is easy to navigate and the features make it a breeze to find and borrow books. I also appreciate the option to return books early if I finish reading ahead of schedule.",
+        "price": 600,
+        "_id": 4
+    },
+    {
+        "name": "Car Body",
+        "img": "https://www.shutterstock.com/image-illustration/auto-parts-logo-3d-render-600w-1935631936.jpg",
+        "content": "I've been using this e-library for a few months now and I'm really impressed. The customer service is top-notch and the wide variety of genres available means I'm never without something to read. Highly recommend giving it a try!",
+        "price": 900,
+        "_id": 5
+    },
+    {
+        "name": "Product Manager",
+        "img": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQXd1BFeGNmFgni0SbBC1V7bdqmAhgjw33eU97SNG7J4xmwuLN2nv7IcwhxjdBSne25Ljo&usqp=CAU",
+        "content": "I recently discovered this e-library and I'm hooked! The app is user-friendly and the selection is impressive. Plus, I love being able to access my books from any device. Highly recommend!",
+        "price": 600,
+        "_id": 6
+    },
+    {
+        "name": "Product Manager",
+        "img": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQXd1BFeGNmFgni0SbBC1V7bdqmAhgjw33eU97SNG7J4xmwuLN2nv7IcwhxjdBSne25Ljo&usqp=CAU",
+        "content": "I recently discovered this e-library and I'm hooked! The app is user-friendly and the selection is impressive. Plus, I love being able to access my books from any device. Highly recommend!",
+        "price": 600,
+        "_id": 7
+    },
+    {
+        "name": "Car Body",
+        "img": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTbPKzN8BS5KXA0onBZZN9oR-a0OxPvjXISdQ&usqp=CAU",
+        "content": "I've been using this e-library for a few months now and I'm really impressed. The customer service is top-notch and the wide variety of genres available means I'm never without something to read. Highly recommend giving it a try!",
+        "price": 900,
+        "_id": 8
+    }
+    
+]

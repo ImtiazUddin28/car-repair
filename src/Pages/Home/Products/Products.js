@@ -1,20 +1,36 @@
-import React from 'react';
+import React, {useEffect, useState } from 'react';
+import ProductCard from './ProductCard';
 
 const Products = () => {
+	const [products, setProducts] = useState([]);
+    
+    useEffect( () =>{
+        fetch('products.json')
+        .then(res =>res.json())
+        .then(data => setProducts(data))
+    }, []);
     return (
-        <div>
 
-<div className="max-w-xs p-6 rounded-md shadow-md dark:bg-gray-900 dark:text-gray-50">
-	<img src="https://source.unsplash.com/random/300x300/?1" alt="" className="object-cover object-center w-full rounded-md h-72 dark:bg-gray-500" />
-	<div className="mt-6 mb-2">
-		<span className="block text-xs font-medium tracking-widest uppercase dark:text-violet-400">Quisque</span>
-		<h2 className="text-xl font-semibold tracking-wide">Nam maximus purus</h2>
-	</div>
-	<p className="dark:text-gray-100">Mauris et lorem at elit tristique dignissim et ullamcorper elit. In sed feugiat mi. Etiam ut lacinia dui.</p>
-</div>
-
+		<div>
+            <div className='text-center mb-4'>
+                
+                <h2 className="text-5xl font-bold text-orange-600">Our Popular Products</h2>
+                <p className='m-6'>the majority have suffered alteration in some form, by injected humour, or randomised words which don't look even slightly believable. the majority have suffered alteration in some form, by injected humour, or randomised words which don't look even slightly believable. </p>
+            </div>
+            <div className='grid gap-6 grid-cols-1 md:grid-cols-2 lg:grid-cols-4'>
+                {
+                    products.map(product => <ProductCard
+                        key={product._id}
+                        product={product}
+                    ></ProductCard>)
+                }
+            </div>
+            <div className='text-center'><button className='btn btn-primary my-5'>View All Products</button></div>
+            
         </div>
-    );
+        
+
+	)
 };
 
 export default Products;

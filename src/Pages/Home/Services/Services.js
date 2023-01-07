@@ -15,9 +15,9 @@ const Services = () => {
     return (
         <div>
             <div className='text-center mb-4'>
-                <p className="text-2xl font-bold text-orange-600">Services</p>
-                <h2 className="text-5xl font-semibold">Our Service Area</h2>
-                <p>the majority have suffered alteration in some form, by injected humour, or randomised words which don't look even slightly believable. </p>
+                
+                <h2 className="text-5xl font-bold text-orange-600">Our Service Area</h2>
+                <p className='m-6'>the majority have suffered alteration in some form, by injected humour, or randomised words which don't look even slightly believable. </p>
             </div>
             <div className='grid gap-6 grid-cols-1 md:grid-cols-2 lg:grid-cols-3'>
                 {
