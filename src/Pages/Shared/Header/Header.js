@@ -1,6 +1,6 @@
 import React, { useContext } from 'react';
 import { Link } from 'react-router-dom';
-import logo from '../../../assets/logo.svg';
+import logo from '../../../assets/auto.svg';
 import { AuthContext } from '../../../contexts/AuthProvider/AuthProvider';
 
 const Header = () => {
@@ -38,7 +38,7 @@ const Header = () => {
                         {menuItems}
                     </ul>
                 </div>
-                <Link to="/" className="btn btn-ghost normal-case text-xl">
+                <Link to="/" className="mt-3">
                     <img src={logo} alt="" />
                 </Link>
             </div>

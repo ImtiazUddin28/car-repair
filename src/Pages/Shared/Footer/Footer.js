@@ -1,12 +1,12 @@
 import React from 'react';
-import logo from '../../../assets/logo.svg';
+import logo from '../../../assets/auto.svg';
 
 const Footer = () => {
     return (
-        <footer className="footer p-32 bg-black text-white">
+        <footer className="footer my-5 p-24 bg-black text-white rounded-2xl ">
             <div>
-                <img src={logo} alt="" />
-                <p>ACME Industries Ltd.<br/>Providing reliable tech since 1992</p>
+           
+            <img className='' src={logo} alt="" />
             </div>
             <div>
                 <span className="footer-title">Services</span>

@@ -1,18 +1,18 @@
 import React from 'react';
-import person from '../../../assets/images/about_us/person.jpg'
-import parts from '../../../assets/images/about_us/parts.jpg'
+import person from '../../../assets/images/team/2.jpg'
+import parts from '../../../assets/images/homeCarousel/3.jpg'
 
 const About = () => {
     return (
-        <div className="hero my-20">
+        <div className="hero my-8">
             <div className="hero-content flex-col lg:flex-row">
                 <div className='relative w-1/2'>
                     <img src={person} alt="" className="w-4/5 h-full rounded-lg shadow-2xl" />
                     <img src={parts}  alt="" className="absolute right-5 top-1/2 w-3/5 border-8 rounded-lg shadow-2xl" />
                 </div>
                 <div className='w-1/2'>
-                    <p className="text-2xl font-bold text-orange-600">About Us</p>
-                    <h1 className="my-5 text-5xl font-bold">
+                    <p className="text-4xl font-bold text-orange-600">About Us</p>
+                    <h1 className="my-2 text-2xl lg:text-5xl text-primary font-bold">
                         We are qualified <br />
                         & of experience <br />
                         in this field</h1>

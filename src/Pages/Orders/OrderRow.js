@@ -14,11 +14,7 @@ const OrderRow = ({ order, handleDelete, handleStatusUpdate }) => {
 
     return (
         <tr>
-            <th>
-                <label>
-                    <button onClick={() => handleDelete(_id)} className='btn btn-ghost'>X</button>
-                </label>
-            </th>
+            
             <td>
                 <div className="flex items-center space-x-3">
                     <div className="avatar">
@@ -39,11 +35,15 @@ const OrderRow = ({ order, handleDelete, handleStatusUpdate }) => {
                 <br />
                 <span className="badge badge-ghost badge-sm">${price}</span>
             </td>
-            <td>Purple</td>
             <th>
                 <button 
                 onClick={() => handleStatusUpdate(_id)}
                 className="btn btn-ghost btn-xs">{status ? status : 'pending'}</button>
+            </th>
+            <th>
+                <label>
+                    <button onClick={() => handleDelete(_id)} className='btn btn-primary hover:bg-slate-500'>Remove</button>
+                </label>
             </th>
         </tr>
     );

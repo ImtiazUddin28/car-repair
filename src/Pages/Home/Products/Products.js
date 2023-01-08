@@ -25,7 +25,7 @@ const Products = () => {
                     ></ProductCard>)
                 }
             </div>
-            <div className='text-center'><button className='btn btn-primary my-5'>View All Products</button></div>
+            <div className='text-center'><button className="btn bg-orange-600 hover:btn-warning my-5 px-5 w-64">View All Products</button></div>
             
         </div>
         

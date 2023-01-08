@@ -9,8 +9,8 @@ const ProductCard = ({product}) => {
 	<div className="mt-6 mb-2 text-center">
 		
 		<h2 className="text-2xl font-semibold tracking-wide">{name}</h2>
-        <span className="block tracking-widest uppercase text-2xl text-orange-600 font-semibold">Price: ${price}</span>
-        <button className="btn btn-primary px-3 my-3 w-full">Buy Now</button>
+        <span className="block tracking-widest uppercase text-2xl text-orange-900 font-semibold">Price: ${price}</span>
+        <button className="btn bg-orange-600 hover:btn-warning my-3 px-5 w-full">Buy Now</button>
 	</div>
 	
 </div>

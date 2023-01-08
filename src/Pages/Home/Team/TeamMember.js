@@ -10,7 +10,7 @@ const TeamMember = ({member}) => {
         <div className="mt-6 mb-2 text-center">
     
     <h2 className="text-2xl font-bold">{name}</h2>
-    <span className=" text-2xl font-semibold">{post}</span>
+    <span className=" text-2xl text-orange-600 font-semibold">{post}</span>
     <div className="flex justify-center pt-2 space-x-4 align-center">
 			<Link href="#" aria-label="GitHub" className="p-2 rounded-md dark:text-gray-100 hover:dark:text-violet-400">
 				<svg viewBox="0 0 496 512" xmlns="http://www.w3.org/2000/svg" className="w-8 h-8 text-primary fill-current">
